@@ -1,7 +1,8 @@
-<template>
+<!-- <template>
   <div class="main">
     <el-container class="main-content">
       <el-aside width="200px">
+        <p>Rowe-Vue3-Admin</p>
         <main-menu></main-menu>
       </el-aside>
       <el-container>
@@ -40,11 +41,16 @@ function handleFoldChange(flag: boolean) {
     line-height: 200px;
     text-align: left;
     cursor: pointer;
-    background-color: #001529;
     scrollbar-width: none; /* firefox */
     -ms-overflow-style: none; /* IE 10+ */
 
     transition: width 0.3s ease;
+    p {
+      color: black;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
 
     &::-webkit-scrollbar {
       display: none;
@@ -55,4 +61,13 @@ function handleFoldChange(flag: boolean) {
     background-color: #f0f2f5;
   }
 }
-</style>
+</style> -->
+<template>
+  <div class="main.vue">
+    <h2>main.vue</h2>
+  </div>
+</template>
+
+<script setup></script>
+
+<style lang="less" scoped></style>
